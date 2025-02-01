@@ -1,0 +1,63 @@
+body {
+    background: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzhwZGlxc25vNDByanYyMGI3MHJ4ZnZwM2xmMmYzcDhtNzc4NThiNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VDuU7gwIMMD25CINCM/giphy.gif') no-repeat center center fixed;
+    background-size: cover;
+}
+.chat-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 15px;
+    border: 2px solid rgb(2, 251, 2);
+    border-radius: 10px;
+    background-color: #000700;
+}
+
+h2 {
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgb(3, 252, 3);
+    padding-bottom: 5px;
+}
+
+.chat-box {
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid green;
+    padding: 10px;
+    text-align: left;
+    background-color: #111;
+}
+
+.bot-text, .user-text {
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.bot-text {
+    color: lime;
+}
+
+.user-text {
+    color: lightgreen;
+    text-align: right;
+}
+
+input {
+    width: 80%;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid green;
+    background-color: rgb(1, 6, 0);
+    color: rgb(3, 249, 3);
+}
+
+button {
+    background-color: black;
+    color: green;
+    border: 1px solid green;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green;
+    color: rgb(51, 243, 8);
+}
